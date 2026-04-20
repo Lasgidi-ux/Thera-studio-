@@ -1,0 +1,23 @@
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+
+  --color-background: #FFFFFF;
+  --color-foreground: #000000;
+  --color-muted: #6F6F6F;
+
+  --animate-fade-rise: fade-rise 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-rise-delay: fade-rise 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  --animate-fade-rise-delay-2: fade-rise 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.6s forwards;
+
+  @keyframes fade-rise {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
