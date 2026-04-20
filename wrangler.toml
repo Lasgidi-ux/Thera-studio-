@@ -1,6 +1,5 @@
-# Cloudflare Pages configuration
-# This file overrides dashboard settings and ensures correct build commands are used.
+name = "thera-studio"
+compatibility_date = "2024-04-03"
 
-[pages]
-build_command = "npm run build"
-build_output_directory = "dist"
+[assets]
+directory = "./dist"
