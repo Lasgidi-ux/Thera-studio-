@@ -1,0 +1,6 @@
+# Cloudflare Pages configuration
+# This file overrides dashboard settings and ensures correct build commands are used.
+
+[pages]
+build_command = "npm run build"
+build_output_directory = "dist"
